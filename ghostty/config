@@ -1,0 +1,49 @@
+# 主字体（可多次指定实现 fallback）
+font-family = Maple Mono NF CN          # Fallback 字体
+
+# 特定样式字体
+font-family-bold = Maple Mono NF CN
+font-family-italic = Maple Mono NF CN
+font-family-bold-italic = Maple Mono NF CN
+
+# 字体大小（点）
+font-size = 13
+
+# 字重调整（可变字体）
+font-variation = wght=450
+
+# 禁用编程连字（如将 != 显示为 ≠）
+font-feature = -calt
+font-feature = -liga
+font-feature = -dlig
+
+# 禁用合成粗体/斜体
+font-style = no-bold,no-italic
+
+# 字形微调
+adjust-cell-width = 15%
+adjust-cell-height = 20%
+#adjust-cell-baseline = 2           # 基线位置
+#adjust-underline-position = 1      # 下划线位置
+#adjust-underline-thickness = 1     # 下划线粗细
+
+# FreeType 设置（Linux）
+freetype-load-flags = hinting,force-autohint
+
+# 初始窗口大小（字符网格）
+window-width = 120
+window-height = 35
+
+# 初始窗口位置（像素，macOS 专用）
+window-position-x = 100
+window-position-y = 100
+
+# 窗口内边距
+window-padding-x = 8
+window-padding-y = 8
+window-width = 120
+window-height = 35
+
+# 全屏设置
+fullscreen = false
+
